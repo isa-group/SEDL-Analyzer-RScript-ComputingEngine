@@ -5,203 +5,30 @@
 Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.7 
 Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2018.04.30 a las 12:47:52 PM CEST 
+Generado el: 2018.05.03 a las 05:31:11 PM CEST 
 
   -->
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/analysis/datasetspecification">
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/context">
     <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.analysis.datasetspecification"/>
+      <package name="es.us.isa.sedl.core.context"/>
     </schemaBindings>
-    <bindings scd="~tns:GroupingProjection">
-      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.GroupingProjection"/>
+    <bindings scd="~tns:Context">
+      <class ref="es.us.isa.sedl.core.context.Context"/>
     </bindings>
-    <bindings scd="~tns:Filter">
-      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.Filter"/>
+    <bindings scd="~tns:Project">
+      <class ref="es.us.isa.sedl.core.context.Project"/>
     </bindings>
-    <bindings scd="~tns:GroupFilter">
-      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.GroupFilter"/>
+    <bindings scd="~tns:Stakeholder">
+      <class ref="es.us.isa.sedl.core.context.Stakeholder"/>
     </bindings>
-    <bindings scd="~tns:DatasetSpecification">
-      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.DatasetSpecification"/>
+    <bindings scd="~tns:Organization">
+      <class ref="es.us.isa.sedl.core.context.Organization"/>
     </bindings>
-    <bindings scd="~tns:Projection">
-      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.Projection"/>
+    <bindings scd="~tns:People">
+      <class ref="es.us.isa.sedl.core.context.People"/>
     </bindings>
-    <bindings scd="~tns:ValuationFilter">
-      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.ValuationFilter"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/execution">
-    <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.execution"/>
-    </schemaBindings>
-    <bindings scd="~tns:Log">
-      <class ref="es.us.isa.sedl.core.execution.Log"/>
-    </bindings>
-    <bindings scd="~tns:CSV">
-      <class ref="es.us.isa.sedl.core.execution.CSV"/>
-    </bindings>
-    <bindings scd="~tns:DataMapping">
-      <class ref="es.us.isa.sedl.core.execution.DataMapping"/>
-    </bindings>
-    <bindings scd="~tns:ColumnIndexMapper">
-      <class ref="es.us.isa.sedl.core.execution.ColumnIndexMapper"/>
-    </bindings>
-    <bindings scd="~tns:LogLine">
-      <class ref="es.us.isa.sedl.core.execution.LogLine"/>
-    </bindings>
-    <bindings scd="~tns:ByColumnIndex">
-      <class ref="es.us.isa.sedl.core.execution.ByColumnIndex"/>
-    </bindings>
-    <bindings scd="~tns:ExperimentalResult">
-      <class ref="es.us.isa.sedl.core.execution.ExperimentalResult"/>
-    </bindings>
-    <bindings scd="~tns:FileFormat">
-      <class ref="es.us.isa.sedl.core.execution.FileFormat"/>
-    </bindings>
-    <bindings scd="~tns:Execution">
-      <class ref="es.us.isa.sedl.core.execution.Execution"/>
-    </bindings>
-    <bindings scd="~tns:ColumnBasedDataMapping">
-      <class ref="es.us.isa.sedl.core.execution.ColumnBasedDataMapping"/>
-    </bindings>
-    <bindings scd="~tns:Excel">
-      <class ref="es.us.isa.sedl.core.execution.Excel"/>
-    </bindings>
-    <bindings scd="~tns:ToVariable">
-      <class ref="es.us.isa.sedl.core.execution.ToVariable"/>
-    </bindings>
-    <bindings scd="~tns:ByColumnLabel">
-      <class ref="es.us.isa.sedl.core.execution.ByColumnLabel"/>
-    </bindings>
-    <bindings scd="~tns:PlainText">
-      <class ref="es.us.isa.sedl.core.execution.PlainText"/>
-    </bindings>
-    <bindings scd="~tns:ToConstant">
-      <class ref="es.us.isa.sedl.core.execution.ToConstant"/>
-    </bindings>
-    <bindings scd="~tns:ResultsFile">
-      <class ref="es.us.isa.sedl.core.execution.ResultsFile"/>
-    </bindings>
-    <bindings scd="~tns:ColumnConstants">
-      <typesafeEnumClass ref="es.us.isa.sedl.core.execution.ColumnConstants"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/classification">
-    <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.classification"/>
-    </schemaBindings>
-    <bindings scd="~tns:ExperimentalClassificationType">
-      <class ref="es.us.isa.sedl.core.classification.ExperimentalClassificationType"/>
-    </bindings>
-    <bindings scd="~tns:ExperimentalClassification">
-      <class ref="es.us.isa.sedl.core.classification.ExperimentalClassification"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http:///StatCharts/es/us/isa/sedl/module/statcharts.ecore">
-    <schemaBindings map="false">
-      <package name="statcharts.es.us.isa.sedl.module.statcharts"/>
-    </schemaBindings>
-    <bindings scd="~tns:Histogram">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.Histogram"/>
-    </bindings>
-    <bindings scd="~tns:HistogramResult">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.HistogramResult"/>
-    </bindings>
-    <bindings scd="~tns:PieChartResult">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.PieChartResult"/>
-    </bindings>
-    <bindings scd="~tns:ScatterPlot">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.ScatterPlot"/>
-    </bindings>
-    <bindings scd="~tns:BoxPlot">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.BoxPlot"/>
-    </bindings>
-    <bindings scd="~tns:StatisticalChart">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.StatisticalChart"/>
-    </bindings>
-    <bindings scd="~tns:Outlier">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.Outlier"/>
-    </bindings>
-    <bindings scd="~tns:StatisticalChartResult">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.StatisticalChartResult"/>
-    </bindings>
-    <bindings scd="~tns:PieChart">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.PieChart"/>
-    </bindings>
-    <bindings scd="~tns:BoxPlotResult">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.BoxPlotResult"/>
-    </bindings>
-    <bindings scd="~tns:ScatterPlotResult">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.ScatterPlotResult"/>
-    </bindings>
-    <bindings scd="~tns:SerieBox">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.SerieBox"/>
-    </bindings>
-    <bindings scd="~tns:Serie">
-      <class ref="statcharts.es.us.isa.sedl.module.statcharts.Serie"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core">
-    <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core"/>
-    </schemaBindings>
-    <bindings scd="~tns:SEDLEntity">
-      <class ref="es.us.isa.sedl.core.SEDLEntity"/>
-    </bindings>
-    <bindings scd="~tns:Experiment">
-      <class ref="es.us.isa.sedl.core.Experiment"/>
-    </bindings>
-    <bindings scd="~tns:ExtensionPoint">
-      <class ref="es.us.isa.sedl.core.ExtensionPoint"/>
-    </bindings>
-    <bindings scd="~tns:BasicExperiment">
-      <class ref="es.us.isa.sedl.core.BasicExperiment"/>
-    </bindings>
-    <bindings scd="~tns:SEDLBase">
-      <class ref="es.us.isa.sedl.core.SEDLBase"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/analysis">
-    <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.analysis"/>
-    </schemaBindings>
-    <bindings scd="~tns:AnalysisResult">
-      <class ref="es.us.isa.sedl.core.analysis.AnalysisResult"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/hypothesis">
-    <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.hypothesis"/>
-    </schemaBindings>
-    <bindings scd="~tns:RelationSpecification">
-      <class ref="es.us.isa.sedl.core.hypothesis.RelationSpecification"/>
-    </bindings>
-    <bindings scd="~tns:DifferentialHypothesis">
-      <class ref="es.us.isa.sedl.core.hypothesis.DifferentialHypothesis"/>
-    </bindings>
-    <bindings scd="~tns:RelationalHypothesis">
-      <class ref="es.us.isa.sedl.core.hypothesis.RelationalHypothesis"/>
-    </bindings>
-    <bindings scd="~tns:AssociationalHypothesis">
-      <class ref="es.us.isa.sedl.core.hypothesis.AssociationalHypothesis"/>
-    </bindings>
-    <bindings scd="~tns:Assertion">
-      <class ref="es.us.isa.sedl.core.hypothesis.Assertion"/>
-    </bindings>
-    <bindings scd="~tns:DescriptiveHypothesis">
-      <class ref="es.us.isa.sedl.core.hypothesis.DescriptiveHypothesis"/>
-    </bindings>
-    <bindings scd="~tns:Hypothesis">
-      <class ref="es.us.isa.sedl.core.hypothesis.Hypothesis"/>
-    </bindings>
-  </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/configuration/fileformats">
-    <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.configuration.fileformats"/>
-    </schemaBindings>
-    <bindings scd="~tns:CSVFileFormat">
-      <class ref="es.us.isa.sedl.core.configuration.fileformats.CSVFileFormat"/>
+    <bindings scd="~tns:Person">
+      <class ref="es.us.isa.sedl.core.context.Person"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/design">
@@ -320,27 +147,163 @@ Generado el: 2018.04.30 a las 12:47:52 PM CEST
       <typesafeEnumClass ref="es.us.isa.sedl.core.design.VariableKind"/>
     </bindings>
   </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/context">
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/execution">
     <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.context"/>
+      <package name="es.us.isa.sedl.core.execution"/>
     </schemaBindings>
-    <bindings scd="~tns:Context">
-      <class ref="es.us.isa.sedl.core.context.Context"/>
+    <bindings scd="~tns:Log">
+      <class ref="es.us.isa.sedl.core.execution.Log"/>
     </bindings>
-    <bindings scd="~tns:Project">
-      <class ref="es.us.isa.sedl.core.context.Project"/>
+    <bindings scd="~tns:CSV">
+      <class ref="es.us.isa.sedl.core.execution.CSV"/>
     </bindings>
-    <bindings scd="~tns:Stakeholder">
-      <class ref="es.us.isa.sedl.core.context.Stakeholder"/>
+    <bindings scd="~tns:DataMapping">
+      <class ref="es.us.isa.sedl.core.execution.DataMapping"/>
     </bindings>
-    <bindings scd="~tns:Organization">
-      <class ref="es.us.isa.sedl.core.context.Organization"/>
+    <bindings scd="~tns:ColumnIndexMapper">
+      <class ref="es.us.isa.sedl.core.execution.ColumnIndexMapper"/>
     </bindings>
-    <bindings scd="~tns:People">
-      <class ref="es.us.isa.sedl.core.context.People"/>
+    <bindings scd="~tns:LogLine">
+      <class ref="es.us.isa.sedl.core.execution.LogLine"/>
     </bindings>
-    <bindings scd="~tns:Person">
-      <class ref="es.us.isa.sedl.core.context.Person"/>
+    <bindings scd="~tns:ByColumnIndex">
+      <class ref="es.us.isa.sedl.core.execution.ByColumnIndex"/>
+    </bindings>
+    <bindings scd="~tns:ExperimentalResult">
+      <class ref="es.us.isa.sedl.core.execution.ExperimentalResult"/>
+    </bindings>
+    <bindings scd="~tns:FileFormat">
+      <class ref="es.us.isa.sedl.core.execution.FileFormat"/>
+    </bindings>
+    <bindings scd="~tns:Execution">
+      <class ref="es.us.isa.sedl.core.execution.Execution"/>
+    </bindings>
+    <bindings scd="~tns:ColumnBasedDataMapping">
+      <class ref="es.us.isa.sedl.core.execution.ColumnBasedDataMapping"/>
+    </bindings>
+    <bindings scd="~tns:Excel">
+      <class ref="es.us.isa.sedl.core.execution.Excel"/>
+    </bindings>
+    <bindings scd="~tns:ToVariable">
+      <class ref="es.us.isa.sedl.core.execution.ToVariable"/>
+    </bindings>
+    <bindings scd="~tns:ByColumnLabel">
+      <class ref="es.us.isa.sedl.core.execution.ByColumnLabel"/>
+    </bindings>
+    <bindings scd="~tns:PlainText">
+      <class ref="es.us.isa.sedl.core.execution.PlainText"/>
+    </bindings>
+    <bindings scd="~tns:ToConstant">
+      <class ref="es.us.isa.sedl.core.execution.ToConstant"/>
+    </bindings>
+    <bindings scd="~tns:ResultsFile">
+      <class ref="es.us.isa.sedl.core.execution.ResultsFile"/>
+    </bindings>
+    <bindings scd="~tns:ColumnConstants">
+      <typesafeEnumClass ref="es.us.isa.sedl.core.execution.ColumnConstants"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core">
+    <schemaBindings map="false">
+      <package name="es.us.isa.sedl.core"/>
+    </schemaBindings>
+    <bindings scd="~tns:SEDLEntity">
+      <class ref="es.us.isa.sedl.core.SEDLEntity"/>
+    </bindings>
+    <bindings scd="~tns:Experiment">
+      <class ref="es.us.isa.sedl.core.Experiment"/>
+    </bindings>
+    <bindings scd="~tns:ExtensionPoint">
+      <class ref="es.us.isa.sedl.core.ExtensionPoint"/>
+    </bindings>
+    <bindings scd="~tns:BasicExperiment">
+      <class ref="es.us.isa.sedl.core.BasicExperiment"/>
+    </bindings>
+    <bindings scd="~tns:SEDLBase">
+      <class ref="es.us.isa.sedl.core.SEDLBase"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/analysis/statistic">
+    <schemaBindings map="false">
+      <package name="es.us.isa.sedl.core.analysis.statistic"/>
+    </schemaBindings>
+    <bindings scd="~tns:Mean">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Mean"/>
+    </bindings>
+    <bindings scd="~tns:VariabilityMeasure">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.VariabilityMeasure"/>
+    </bindings>
+    <bindings scd="~tns:CorrelationCoeficient">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.CorrelationCoeficient"/>
+    </bindings>
+    <bindings scd="~tns:Median">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Median"/>
+    </bindings>
+    <bindings scd="~tns:AssociationalAnalysis">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.AssociationalAnalysis"/>
+    </bindings>
+    <bindings scd="~tns:StatisticalAnalysisResult">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.StatisticalAnalysisResult"/>
+    </bindings>
+    <bindings scd="~tns:CorrelationValue">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.CorrelationValue"/>
+    </bindings>
+    <bindings scd="~tns:InterquartileRange">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.InterquartileRange"/>
+    </bindings>
+    <bindings scd="~tns:InferentialStatistic">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.InferentialStatistic"/>
+    </bindings>
+    <bindings scd="~tns:Ranking">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Ranking"/>
+    </bindings>
+    <bindings scd="~tns:StatisticalTestAssertion">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.StatisticalTestAssertion"/>
+    </bindings>
+    <bindings scd="~tns:Statistic">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Statistic"/>
+    </bindings>
+    <bindings scd="~tns:CentralTendencyMeasure">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.CentralTendencyMeasure"/>
+    </bindings>
+    <bindings scd="~tns:StandardDeviation">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.StandardDeviation"/>
+    </bindings>
+    <bindings scd="~tns:StatisticalAnalysisSpec">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.StatisticalAnalysisSpec"/>
+    </bindings>
+    <bindings scd="~tns:Mode">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Mode"/>
+    </bindings>
+    <bindings scd="~tns:DescriptiveStatistic">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.DescriptiveStatistic"/>
+    </bindings>
+    <bindings scd="~tns:Rank">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Rank"/>
+    </bindings>
+    <bindings scd="~tns:Range">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.Range"/>
+    </bindings>
+    <bindings scd="~tns:PValue">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.PValue"/>
+    </bindings>
+    <bindings scd="~tns:RankingResult">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.RankingResult"/>
+    </bindings>
+    <bindings scd="~tns:TestOfHypothesis">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.TestOfHypothesis"/>
+    </bindings>
+    <bindings scd="~tns:ConfidenceIntervalValue">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.ConfidenceIntervalValue"/>
+    </bindings>
+    <bindings scd="~tns:ConfidenceInterval">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.ConfidenceInterval"/>
+    </bindings>
+    <bindings scd="~tns:NHST">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.NHST"/>
+    </bindings>
+    <bindings scd="~tns:DescriptiveStatisticValue">
+      <class ref="es.us.isa.sedl.core.analysis.statistic.DescriptiveStatisticValue"/>
     </bindings>
   </bindings>
   <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/configuration">
@@ -438,87 +401,124 @@ Generado el: 2018.04.30 a las 12:47:52 PM CEST
       <typesafeEnumClass ref="es.us.isa.sedl.core.configuration.OutputDataSourceRole"/>
     </bindings>
   </bindings>
-  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/analysis/statistic">
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/analysis">
     <schemaBindings map="false">
-      <package name="es.us.isa.sedl.core.analysis.statistic"/>
+      <package name="es.us.isa.sedl.core.analysis"/>
     </schemaBindings>
-    <bindings scd="~tns:Mean">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Mean"/>
+    <bindings scd="~tns:AnalysisResult">
+      <class ref="es.us.isa.sedl.core.analysis.AnalysisResult"/>
     </bindings>
-    <bindings scd="~tns:VariabilityMeasure">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.VariabilityMeasure"/>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/configuration/fileformats">
+    <schemaBindings map="false">
+      <package name="es.us.isa.sedl.core.configuration.fileformats"/>
+    </schemaBindings>
+    <bindings scd="~tns:CSVFileFormat">
+      <class ref="es.us.isa.sedl.core.configuration.fileformats.CSVFileFormat"/>
     </bindings>
-    <bindings scd="~tns:CorrelationCoeficient">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.CorrelationCoeficient"/>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http:///StatCharts/es/us/isa/sedl/module/statcharts.ecore">
+    <schemaBindings map="false">
+      <package name="statcharts.es.us.isa.sedl.module.statcharts"/>
+    </schemaBindings>
+    <bindings scd="~tns:Histogram">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.Histogram"/>
     </bindings>
-    <bindings scd="~tns:Median">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Median"/>
+    <bindings scd="~tns:HistogramResult">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.HistogramResult"/>
     </bindings>
-    <bindings scd="~tns:AssociationalAnalysis">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.AssociationalAnalysis"/>
+    <bindings scd="~tns:PieChartResult">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.PieChartResult"/>
     </bindings>
-    <bindings scd="~tns:StatisticalAnalysisResult">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.StatisticalAnalysisResult"/>
+    <bindings scd="~tns:ScatterPlot">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.ScatterPlot"/>
     </bindings>
-    <bindings scd="~tns:CorrelationValue">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.CorrelationValue"/>
+    <bindings scd="~tns:BoxPlot">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.BoxPlot"/>
     </bindings>
-    <bindings scd="~tns:InterquartileRange">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.InterquartileRange"/>
+    <bindings scd="~tns:StatisticalChart">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.StatisticalChart"/>
     </bindings>
-    <bindings scd="~tns:InferentialStatistic">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.InferentialStatistic"/>
+    <bindings scd="~tns:Outlier">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.Outlier"/>
     </bindings>
-    <bindings scd="~tns:Ranking">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Ranking"/>
+    <bindings scd="~tns:StatisticalChartResult">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.StatisticalChartResult"/>
     </bindings>
-    <bindings scd="~tns:StatisticalTestAssertion">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.StatisticalTestAssertion"/>
+    <bindings scd="~tns:PieChart">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.PieChart"/>
     </bindings>
-    <bindings scd="~tns:Statistic">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Statistic"/>
+    <bindings scd="~tns:BoxPlotResult">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.BoxPlotResult"/>
     </bindings>
-    <bindings scd="~tns:CentralTendencyMeasure">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.CentralTendencyMeasure"/>
+    <bindings scd="~tns:ScatterPlotResult">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.ScatterPlotResult"/>
     </bindings>
-    <bindings scd="~tns:StandardDeviation">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.StandardDeviation"/>
+    <bindings scd="~tns:SerieBox">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.SerieBox"/>
     </bindings>
-    <bindings scd="~tns:StatisticalAnalysisSpec">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.StatisticalAnalysisSpec"/>
+    <bindings scd="~tns:Serie">
+      <class ref="statcharts.es.us.isa.sedl.module.statcharts.Serie"/>
     </bindings>
-    <bindings scd="~tns:Mode">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Mode"/>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/classification">
+    <schemaBindings map="false">
+      <package name="es.us.isa.sedl.core.classification"/>
+    </schemaBindings>
+    <bindings scd="~tns:ExperimentalClassificationType">
+      <class ref="es.us.isa.sedl.core.classification.ExperimentalClassificationType"/>
     </bindings>
-    <bindings scd="~tns:DescriptiveStatistic">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.DescriptiveStatistic"/>
+    <bindings scd="~tns:ExperimentalClassification">
+      <class ref="es.us.isa.sedl.core.classification.ExperimentalClassification"/>
     </bindings>
-    <bindings scd="~tns:Rank">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Rank"/>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/hypothesis">
+    <schemaBindings map="false">
+      <package name="es.us.isa.sedl.core.hypothesis"/>
+    </schemaBindings>
+    <bindings scd="~tns:RelationSpecification">
+      <class ref="es.us.isa.sedl.core.hypothesis.RelationSpecification"/>
     </bindings>
-    <bindings scd="~tns:Range">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.Range"/>
+    <bindings scd="~tns:DifferentialHypothesis">
+      <class ref="es.us.isa.sedl.core.hypothesis.DifferentialHypothesis"/>
     </bindings>
-    <bindings scd="~tns:PValue">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.PValue"/>
+    <bindings scd="~tns:RelationalHypothesis">
+      <class ref="es.us.isa.sedl.core.hypothesis.RelationalHypothesis"/>
     </bindings>
-    <bindings scd="~tns:RankingResult">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.RankingResult"/>
+    <bindings scd="~tns:AssociationalHypothesis">
+      <class ref="es.us.isa.sedl.core.hypothesis.AssociationalHypothesis"/>
     </bindings>
-    <bindings scd="~tns:TestOfHypothesis">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.TestOfHypothesis"/>
+    <bindings scd="~tns:Assertion">
+      <class ref="es.us.isa.sedl.core.hypothesis.Assertion"/>
     </bindings>
-    <bindings scd="~tns:ConfidenceIntervalValue">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.ConfidenceIntervalValue"/>
+    <bindings scd="~tns:DescriptiveHypothesis">
+      <class ref="es.us.isa.sedl.core.hypothesis.DescriptiveHypothesis"/>
     </bindings>
-    <bindings scd="~tns:ConfidenceInterval">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.ConfidenceInterval"/>
+    <bindings scd="~tns:Hypothesis">
+      <class ref="es.us.isa.sedl.core.hypothesis.Hypothesis"/>
     </bindings>
-    <bindings scd="~tns:NHST">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.NHST"/>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://isa.us.es/sedl/core/analysis/datasetspecification">
+    <schemaBindings map="false">
+      <package name="es.us.isa.sedl.core.analysis.datasetspecification"/>
+    </schemaBindings>
+    <bindings scd="~tns:GroupingProjection">
+      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.GroupingProjection"/>
     </bindings>
-    <bindings scd="~tns:DescriptiveStatisticValue">
-      <class ref="es.us.isa.sedl.core.analysis.statistic.DescriptiveStatisticValue"/>
+    <bindings scd="~tns:Filter">
+      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.Filter"/>
+    </bindings>
+    <bindings scd="~tns:GroupFilter">
+      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.GroupFilter"/>
+    </bindings>
+    <bindings scd="~tns:DatasetSpecification">
+      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.DatasetSpecification"/>
+    </bindings>
+    <bindings scd="~tns:Projection">
+      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.Projection"/>
+    </bindings>
+    <bindings scd="~tns:ValuationFilter">
+      <class ref="es.us.isa.sedl.core.analysis.datasetspecification.ValuationFilter"/>
     </bindings>
   </bindings>
 </bindings>

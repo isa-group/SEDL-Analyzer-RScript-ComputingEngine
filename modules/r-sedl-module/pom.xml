@@ -7,7 +7,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>./../../pom.xml</relativePath>
     </parent>
-    <groupId>es.us.isa.sedl.modules.</groupId>
+    <groupId>es.us.isa.sedl.modules</groupId>
     <artifactId>r-sedl-module</artifactId>    
     <name>R scripts form SEDL Module</name>	
         

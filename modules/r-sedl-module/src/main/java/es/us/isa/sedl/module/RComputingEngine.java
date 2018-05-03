@@ -12,7 +12,7 @@ import es.us.isa.sedl.analysis.operations.information.computestats.engine.Descri
 import es.us.isa.sedl.analysis.operations.information.computestats.engine.StatisticComputingEnginePlugin;
 import es.us.isa.sedl.core.analysis.statistic.Statistic;
 import es.us.isa.sedl.core.analysis.statistic.StatisticalAnalysisResult;
-import es.us.isa.sedl.module.rscript.RScript;
+import es.us.isa.sedl.core.analysis.statistic.module.rscript.RScript;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;

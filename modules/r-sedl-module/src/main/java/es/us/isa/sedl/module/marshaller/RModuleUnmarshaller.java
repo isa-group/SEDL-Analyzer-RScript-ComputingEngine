@@ -16,15 +16,10 @@ import es.us.isa.sedl.core.util.Error;
 import es.us.isa.sedl.error.SEDL4PeopleError;
 import es.us.isa.sedl.marshaller.analysis.statistic.DatasetSpecificationParser;
 import es.us.isa.sedl.module.SEDLModuleUnmarshaller;
-import es.us.isa.sedl.module.rscript.RScript;
+import es.us.isa.sedl.core.analysis.statistic.module.rscript.RScript;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import statcharts.es.us.isa.sedl.module.statcharts.BoxPlot;
-import statcharts.es.us.isa.sedl.module.statcharts.Histogram;
-import statcharts.es.us.isa.sedl.module.statcharts.PieChart;
-import statcharts.es.us.isa.sedl.module.statcharts.ScatterPlot;
-import statcharts.es.us.isa.sedl.module.statcharts.StatisticalChart;
 
 /**
  *
@@ -43,8 +38,10 @@ public class RModuleUnmarshaller implements SEDLModuleUnmarshaller {
     @Override
     public Collection<? extends Error> unmarshall(ExtensionPointElement element, Experiment experiment) {
         List<Error> result=new ArrayList<Error>();
-        String content=element.getContent();        
-        String scriptName=content.substring(content.indexOf(":")).replace(":", "").replace("'","");
+        String content=element.getContent();
+        if(content.contains(":"))
+            content=content.substring(content.indexOf(":")+1);
+        String scriptName=content.replace(":", "").replace("'","").replace("\n","");
         if(scriptName.equals("")){
             Error e=new SEDL4PeopleError(element.getContext().start.getLine(), 
                                             element.getContext().start.getStartIndex(), element.getContext().stop.getStopIndex(), Error.ERROR_SEVERITY.ERROR, 
